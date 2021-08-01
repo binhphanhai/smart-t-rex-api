@@ -1,0 +1,32 @@
+{
+  "name": "smart-t-rex-api",
+  "version": "1.0.0",
+  "description": "This is backend for smart-t-rex-app\r My T-Rex knows almost celebrities",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binhphanhai/smart-t-rex-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binhphanhai/smart-t-rex-api/issues"
+  },
+  "homepage": "https://github.com/binhphanhai/smart-t-rex-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.7",
+    "nodemon": "^2.0.12",
+    "pg": "^8.6.0"
+  }
+}
