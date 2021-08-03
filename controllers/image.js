@@ -82,6 +82,7 @@ const getAllCelebrities = (req, res) => {
   db("images")
     .select("celebrity")
     .groupBy("celebrity")
+    .orderBy("celebrity", "asc")
     .then((celebrities) => {
       res.json(celebrities.map((val) => val.celebrity));
     })
